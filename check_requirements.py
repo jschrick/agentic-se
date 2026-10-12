@@ -93,7 +93,7 @@ def main():
     if oldest:
         upload_time, name, version = oldest
         # The first 4 characters of the ISO timestamp are the year
-        print(f"Oldest pinned release: {name}={version} ({upload_time[:4]})")
+        print(f"Oldest pinned release: {name}=={version} ({upload_time[:4]})")
     else:
         print("Oldest pinned release: n/a")
 
